@@ -88,6 +88,7 @@ public class Simpul implements Comparable < Simpul >{
     }
   }
 
+  /*
   public boolean isSolusi(){
     if(!dariAsal){
       return false;
@@ -101,6 +102,7 @@ public class Simpul implements Comparable < Simpul >{
       return true;
     }
   }
+  */
 
   public void printLintasan(){
     int n = 1;

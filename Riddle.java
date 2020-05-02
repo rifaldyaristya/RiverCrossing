@@ -65,7 +65,7 @@ public class Riddle{
       arr.remove(0);
       if(isValidSimpul(temp2)){
         temp2.ekspansi();
-        if(temp2.isSolusi()){
+        if(temp2.cost == 0){
           isSolutionExist = true;
           System.out.println("Solusi ketemu!! Ini solusinya:\n");
           temp2.printLintasan();
